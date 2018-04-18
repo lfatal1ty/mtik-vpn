@@ -20,6 +20,8 @@ Home LAN = 198.51.100.0/24
 
 VPN Addresses = 203.0.113.0/24
 
+![alt text](https://raw.githubusercontent.com/zztopper/mtik-vpn/master/chart.png)
+
 ### Testing
 
 Just open any blocked site from home-network
