@@ -102,7 +102,7 @@ add address=203.104.144.0/21 comment=Fuck_RKN list=rkn
 add address=203.104.152.0/22 comment=Fuck_RKN list=rkn
 
 /ip firewall mangle
-add action=mark-routing chain=prerouting src-address=198.51.100.0/24 dst-address-list=rkn new-routing-mark=rkn_mark passthrough=no
+add action=mark-routing chain=prerouting src-address=198.51.100.0/24 dst-address-list=rkn new-routing-mark=rkn passthrough=no
 
 /ip firewall nat
 add chain=srcnat src-address=198.51.100.0/24 dst-address-list=rkn action=masquerade
