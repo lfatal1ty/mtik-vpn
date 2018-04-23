@@ -1,4 +1,3 @@
-
 /interface l2tp-client
 add connect-to=192.0.2.2 disabled=no name=l2tp-chr use-ipsec=yes user=vpn_user password=passw0rd
 
